@@ -7,4 +7,6 @@ jobs:
       - name: Print Greeting
         run: echo Welcome
       - name: Print Goodbye
-        run: echo Bye..
+        run: |
+          echo Bye..
+          echo Bye2..
